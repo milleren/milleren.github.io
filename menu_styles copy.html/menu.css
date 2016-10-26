@@ -1,0 +1,46 @@
+html {
+     box-sizing: border-box;
+}
+
+body {
+    background-color: #555;
+}
+
+h1 {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Impact, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 0px 0px 10px #000000, 2px 2px 5px #ff0000, -2px -2px #000FF0;
+}
+
+#MainMenu {
+    background-color: #FFFFFF;
+}
+#MainMenu ul{
+    background-color: #FFFFFF;
+    padding: 15px;
+}
+
+#MainMenu li{
+    display: inline;
+    box-sizing: border-box;
+    margin: 0 10% 0 0;
+}
+
+#MainMenu a {
+    text-decoration: none;
+    color: #000000;
+    padding: 5px 15px;
+    font-family: Impact, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+#MainMenu a:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+#MainMenu a:focus {
+   background-color: #DDD;
+   color: #000;
+}
